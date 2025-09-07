@@ -1,0 +1,92 @@
+/*====Global settings==========*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(155, 155, 155, );
+    margin: 0px;
+}
+main {
+    background-color: white;
+    
+}
+a {
+    text-decoration: none;
+}
+
+/* ========header style====== */
+header {
+    background-color: rgb(14, 28, 226);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1px;
+    padding: 1px; 
+}
+/*  navigation list*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 2, 8);
+}
+nav ul li  {
+  padding: 12px 20px;
+  border-right: 1px solid white;
+  color: white;
+}
+nav ul li :last-child {
+  border-right: none; /* remove border on last item */
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+/* ======section style======*/
+
+section {
+    background-color: white;
+    margin-top: 40px;
+    
+}
+div {
+    padding: 30px;
+}
+.sidebar {
+     border-left: 10px solid blue;
+     padding-left: 10px;
+}
+div ul li {
+    list-style-type:circle;
+    padding: 10px;
+    display:inline-flex;
+}
+.box {
+    background-color: aqua;
+    text-decoration:none;
+    font-style: italic;
+  box-sizing:content-box;
+    float: left;
+    width:25vw;
+    color:black;
+    margin:9px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+     
+}
+
+/*footer style*/
+footer {
+    background-color: rgb(0, 1, 10);
+    text-align: center;
+    color:wheat;
+    margin:0px;
+    padding:20px;
+}
+
+
+
